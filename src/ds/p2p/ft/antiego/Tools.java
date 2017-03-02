@@ -1,4 +1,4 @@
-package fr.cnrs.liris.drim.AMS;
+package ds.p2p.ft.antiego;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;

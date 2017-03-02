@@ -1,4 +1,4 @@
-package fr.cnrs.liris.drim.AMS;
+package ds.p2p.ft.antiego;
 
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidAlgorithmParameterException;
@@ -33,10 +33,10 @@ import de.flexiprovider.ec.FlexiECProvider;
 import de.flexiprovider.ec.parameters.CurveParams;
 import de.flexiprovider.ec.parameters.CurveRegistry.Secp112r1;
 import de.flexiprovider.pki.PKCS8EncodedKeySpec;
-import fr.cnrs.liris.drim.AMS.Node.NodeIdentity;
-import fr.cnrs.liris.drim.AMS.SecureLogging.AccountHashEntry;
-import fr.cnrs.liris.drim.AMS.Tools.AMSTimer;
-import fr.cnrs.liris.drim.AMS.Tools.Trace;
+import ds.p2p.ft.antiego.Node.NodeIdentity;
+import ds.p2p.ft.antiego.SecureLogging.AccountHashEntry;
+import ds.p2p.ft.antiego.Tools.AMSTimer;
+import ds.p2p.ft.antiego.Tools.Trace;
 /**
  * @author Ali Shoker
  *

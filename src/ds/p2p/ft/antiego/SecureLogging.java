@@ -1,4 +1,4 @@
-package fr.cnrs.liris.drim.AMS;
+package ds.p2p.ft.antiego;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -6,15 +6,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import ds.p2p.ft.antiego.Cryptography;
+import ds.p2p.ft.antiego.Messaging.*;
+import ds.p2p.ft.antiego.SecureLogging.AccountEntry;
+import ds.p2p.ft.antiego.Tools.AMSTimer;
+import ds.p2p.ft.antiego.Tools.Timing;
+import ds.p2p.ft.antiego.Tools.Trace;
+
 import java.util.TreeMap;
-
-
-import fr.cnrs.liris.drim.AMS.Cryptography;
-import fr.cnrs.liris.drim.AMS.Messaging.*;
-import fr.cnrs.liris.drim.AMS.SecureLogging.AccountEntry;
-import fr.cnrs.liris.drim.AMS.Tools.AMSTimer;
-import fr.cnrs.liris.drim.AMS.Tools.Timing;
-import fr.cnrs.liris.drim.AMS.Tools.Trace;
 /**
  * @author Ali Shoker
  *

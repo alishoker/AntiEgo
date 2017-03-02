@@ -1,9 +1,10 @@
-package fr.cnrs.liris.drim.AMS;
+package ds.p2p.ft.antiego;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import fr.cnrs.liris.drim.AMS.Tools.Trace;
+
+import ds.p2p.ft.antiego.Tools.Trace;
 /**
  * @author Ali Shoker
  *
@@ -11,7 +12,7 @@ import fr.cnrs.liris.drim.AMS.Tools.Trace;
 
 
 
-public class AMS {
+public class Launcher {
 
 	public static void main(String [ ] args){
 

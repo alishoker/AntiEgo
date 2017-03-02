@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.cnrs.liris.drim.AMS;
+package ds.p2p.ft.antiego;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -33,19 +33,20 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
-import fr.cnrs.liris.drim.AMS.Cryptography.EncryptionType;
-import fr.cnrs.liris.drim.AMS.Messaging.AccountMsg;
-import fr.cnrs.liris.drim.AMS.Messaging.AnonymContent;
-import fr.cnrs.liris.drim.AMS.Messaging.AnonymPayload;
-import fr.cnrs.liris.drim.AMS.Messaging.Briefcase;
-import fr.cnrs.liris.drim.AMS.Messaging.KeyContent;
-import fr.cnrs.liris.drim.AMS.Messaging.Misbehavior;
-import fr.cnrs.liris.drim.AMS.Messaging.MsgType;
-import fr.cnrs.liris.drim.AMS.Messaging.ValidContent;
-import fr.cnrs.liris.drim.AMS.SecureLogging.*;
-import fr.cnrs.liris.drim.AMS.Tools.AMSTimer;
-import fr.cnrs.liris.drim.AMS.Tools.Timing;
-import fr.cnrs.liris.drim.AMS.Tools.Trace;
+
+import ds.p2p.ft.antiego.Cryptography.EncryptionType;
+import ds.p2p.ft.antiego.Messaging.AccountMsg;
+import ds.p2p.ft.antiego.Messaging.AnonymContent;
+import ds.p2p.ft.antiego.Messaging.AnonymPayload;
+import ds.p2p.ft.antiego.Messaging.Briefcase;
+import ds.p2p.ft.antiego.Messaging.KeyContent;
+import ds.p2p.ft.antiego.Messaging.Misbehavior;
+import ds.p2p.ft.antiego.Messaging.MsgType;
+import ds.p2p.ft.antiego.Messaging.ValidContent;
+import ds.p2p.ft.antiego.SecureLogging.*;
+import ds.p2p.ft.antiego.Tools.AMSTimer;
+import ds.p2p.ft.antiego.Tools.Timing;
+import ds.p2p.ft.antiego.Tools.Trace;
 /**
  * @author Ali Shoker
  *
